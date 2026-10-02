@@ -1,0 +1,8 @@
+.DS_Store
+~$*.pptx
+.review-*/
+.codex-finalizer/
+tmp/
+.build-v2/node_modules
+.build-v2/candidate.pptx
+.build-v2/candidate.pptx.inspect.ndjson

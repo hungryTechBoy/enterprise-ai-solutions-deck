@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>企业 AI 的四个真实难题 · 重设计示例</title>
+  <!--
+    设计假设：10 米投屏阅读；章节主题必须成为第一视觉；
+    「企业不缺 AI」是观点解释，不再与章节标题竞争。
+    视觉母题：四道阻力围绕同一条“从试点到价值”的推进线。
+  -->
+  <style>
+    @page{size:16in 9in;margin:0}
+    *{box-sizing:border-box}
+    html,body{margin:0;width:100%;height:100%;background:#ded8ce}
+    body{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:#211f1c}
+    .slide{width:16in;height:9in;background:#f5f0e8;position:relative;overflow:hidden;padding:.62in .86in .58in}
+    .rail{position:absolute;left:.86in;right:.86in;top:.40in;border-top:1px solid #c8bcb0}
+    .head{display:grid;grid-template-columns:1.02fr .58fr;gap:.72in;align-items:end;margin-top:.22in}
+    .kicker{font-size:.16in;font-weight:700;letter-spacing:.14em;color:#b35435;margin-bottom:.18in}
+    h1{font-size:.76in;line-height:1.04;letter-spacing:-.06em;margin:0;text-wrap:balance}
+    .thesis{border-left:5px solid #b35435;padding:.08in 0 .08in .25in;margin-bottom:.04in}
+    .thesis strong{display:block;font-size:.31in;line-height:1.28;letter-spacing:-.025em}
+    .thesis span{display:block;font-size:.17in;line-height:1.55;color:#6e655d;margin-top:.13in}
+    .divider{height:1px;background:#4c4741;margin:.42in 0 .31in}
+    .problems{display:grid;grid-template-columns:repeat(4,1fr);gap:.18in}
+    .problem{min-height:3.42in;border-top:5px solid #b35435;padding:.23in .22in .18in;background:rgba(255,255,255,.16)}
+    .num{font:700 .62in/.9 ui-monospace,SFMono-Regular,Menlo,monospace;color:#b35435;letter-spacing:-.08em}
+    .problem h2{font-size:.31in;line-height:1.15;margin:.18in 0 .13in;letter-spacing:-.025em}
+    .problem p{font-size:.18in;line-height:1.55;margin:0;color:#403b36}
+    .problem small{display:block;font-size:.13in;letter-spacing:.08em;color:#8a7d72;margin-top:.38in}
+    .bottom{position:absolute;left:.86in;right:.86in;bottom:.44in;display:flex;align-items:center;justify-content:space-between}
+    .takeaway{font:italic .20in/1.35 Georgia,"Songti SC",serif;color:#514a44}
+    .folio{font:600 .13in/1 ui-monospace,monospace;letter-spacing:.14em}
+  </style>
+</head>
+<body>
+  <section class="slide">
+    <div class="rail"></div>
+    <header class="head">
+      <div>
+        <div class="kicker">ENTERPRISE AI · WHY PROJECTS STALL</div>
+        <h1>企业 AI 的<br><span style="color:#b35435">四个真实难题</span></h1>
+      </div>
+      <div class="thesis">
+        <strong>企业不缺 AI，<br>缺的是把 AI 变成业务结果。</strong>
+        <span>真正的挑战，是从「能演示」走到「能运行、能复制、能持续产生价值」。</span>
+      </div>
+    </header>
+    <div class="divider"></div>
+    <div class="problems">
+      <article class="problem"><div class="num">01</div><h2>场景难选</h2><p>不知道什么问题真正值得投入，业务目标与 ROI 判断不清晰。</p><small>VALUE</small></article>
+      <article class="problem"><div class="num">02</div><h2>落地难</h2><p>Demo 容易，接入真实数据、系统、权限和业务流程很难。</p><small>DELIVERY</small></article>
+      <article class="problem"><div class="num">03</div><h2>规模化难</h2><p>一个 PoC 跑通，不代表能稳定运行，更不代表可以跨组织复制。</p><small>SCALE</small></article>
+      <article class="problem"><div class="num">04</div><h2>组织变革难</h2><p>人、流程、岗位与管理机制没有同步改变，AI 价值难以持续。</p><small>ADOPTION</small></article>
+    </div>
+    <footer class="bottom">
+      <div class="takeaway">从正确场景开始，让技术、流程与组织共同发生改变。</div>
+      <div class="folio">02 / 11</div>
+    </footer>
+  </section>
+</body>
+</html>
