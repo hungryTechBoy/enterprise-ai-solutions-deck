@@ -12,11 +12,13 @@
 
 - `.build-v2/`：PPT 构建与导出脚本
 - `assets/`：封面概念图及案例素材
+- `sources/`：用户提供的原始 Word 文档和参考截图
 - `design-demos/`：设计方向稿
 - `output/`：各版本 PPT 和 PDF 成品
 - `brand-spec.md`：品牌视觉规范
 - `direction-approved.md`：设计方向与改稿记录
 - `方案与执行计划.md`：内容与执行方案
+- `AGENTS.md`：数据源、项目决策、构建方式和后续任务交接指南
 
 ## 重新生成 PPT
 
